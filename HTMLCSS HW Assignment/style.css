@@ -1,0 +1,29 @@
+table, th, td{
+  border: 1px solid black;
+}
+
+tbody tr:nth-of-type(odd){
+  background-color: #FFEEFD;
+}
+
+tbody tr:nth-of-type(even){
+  background-color: #F5EEFD;
+}
+
+#outer-content {
+width: 75%;
+padding: 20px;
+background: 	#00BFFF;
+}
+
+#inner-content {
+background: #FF69B4;
+width: 75%;
+margin: auto;
+text-align: center;
+}
+
+.italiconly{
+  font-style: italic;
+  font-weight: normal;
+}
